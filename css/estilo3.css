@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=Jost:wght@300&family=Roboto:wght@300&family=Stardos+Stencil&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.img-inicio{
+    width: 100%;
+    height: 100%;
+    position: center;
+    transition: all;
+    transition-duration: 3s;
+    position:absolute;
+}
+body{
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+}
+
+.contenedor2{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+    overflow: auto;
+    background-color: #0f0f0f;
+    background-image: url("https://www.transparenttextures.com/patterns/otis-redding.png");
+   
+}
+.contenedor-modal{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    transition: all;
+    transform: translateX(-100%);
+    transition-duration: 1s;
+    z-index: 4;
+}
+
+hr{
+    width: 30px;
+    margin-left: -2px;
+    border: 1px solid white;
+}
+.header{
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    font-size: 30px;
+    color: white;
+    position: relative;
+    font-family: 'Cormorant Garamond', serif;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0px 5px;
+}
+.medio{
+    display: flex;
+    width: 100%;
+    height: 90vh;
+    font-size: 20px;
+    color: white;
+    position: relative;
+    font-family: 'Cormorant Garamond', serif;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+.cartel{
+    width: 150px;
+    height: 250px;
+}
+.flechas{
+    display: flex;
+    flex-direction: column;
+    font-size: 1.7em;
+}
+.flechas i{
+    margin: 0px;
+    padding: 0px;
+}
+button{
+    display: flex;
+    flex-direction: column;
+    background: transparent;
+    border: 0px solid;
+    font-size: 1.5em;
+    color: white;
+    font-family: 'Cormorant Garamond', serif;
+}
+.imagen-carta{
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.parte1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20vh;
+    min-height: 100px;
+}
+.parte1 img{
+    width: 100%;
+    max-width: 400px;
+}
+.parte2{
+    display: flex;
+    padding: 10px 5px;
+    flex-direction: row;
+    width: 100%;
+
+    height: min-content;
+    color: white;
+}
+.texto{
+    display: flex;
+
+    width: 100%;
+
+    font-family: 'Roboto', sans-serif;
+
+    font-size: 1.3em;
+}
+.platoss{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    height: 100%;
+}
+.foto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   height: 100%;
+    font-size: .9em;
+    font-weight: 100;
+    padding: 15px 0px;
+}
+
+.precio-plato{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-right: 20px;
+    align-items: center;
+    max-width: 300px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.platos{
+    font-size: 1.3em;
+    font-family: 'Stardos Stencil', cursive;
+}
+.foto img{
+    width: 100%;
+    
+}
+.caja-modal{
+    transform: translateX(0%);
+    display: flex;
+    width: 80%;
+    max-width: 500px;
+    height: 100%;
+    max-height: 300px;
+    background: white;
+    border-radius: 5px;
+    z-index: 9;
+    flex-direction: column;
+    box-shadow: 5px 5px 14px 0px rgba(0,0,0,0.75);
+    justify-content: center;
+    align-items: flex-start;
+}
+.header-modal{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 0px 5px;
+    font-size: 1.3em;
+    width: 100%;
+    height: 30px;
+    border-bottom: 1px solid rgb(175, 171, 171);
+}
+.texto-modal{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 5px;
+    overflow:scroll;
+    font-family: 'Jost', sans-serif;
+}
+.texto-modal img{
+    width: 100%;
+    height: 100%;
+}
+.foto{
+    width: 100%;
+    padding: 10px;
+}
+.contenedor-menu{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+
+}
+/* Estilos para pantallas grandes (PC) */
+@media only screen and (min-width: 1025px) {
+    /* Agrega tus reglas de estilo específicas para pantallas grandes (PC) aquí */
+    .parte2{
+        display: flex;
+        padding: 0;
+        flex-direction: row;
+        width: 50%;
+        height: 50%;
+        color: white;
+        justify-content: space-around;
+        font-size: 1.4em;
+    
+    }
+    .platoss{
+        align-items: center;
+     
+    }
+    .texto{
+        justify-content: center;
+    }
+    .foto{
+        width: 100%;
+        
+    }
+    .foto img{
+        width: 100%;
+        max-width: 300px;
+    }
+}
+@media only screen and (min-width: 500px) {
+    /* Agrega tus reglas de estilo específicas para pantallas grandes (PC) aquí */
+    span{
+        font-size: 1.4em;
+    }
+    .texto{
+        font-size: 1.7em;
+    }
+
+}
