@@ -1,0 +1,45 @@
+<div class="menu">
+  <div class="parte1">
+    <img src="image/titulo2.png" alt="" />
+  </div>
+  <section class="contenedor-menu">
+    {{#each items}}
+      <div class="parte2">
+        <div class="texto">
+          <article class="list">
+            <span>
+              <p data-id=" {{this.id}} " class="seccion"> {{this.nombre}} </p>
+              <hr />
+            </span>
+            {{#each platos}}
+              <section class="section-platillos">
+                <div class="div-precio_platillo">
+                  <p data-id=" {{this.id}} " class="nombre-plato"> {{this.nombre}} </p>
+                  <div><p> ${{this.precio}}</p></div>
+                </div>
+              </section>
+            {{/each}}
+          </article>
+        </div>
+        <div class="foto">
+          <img src="{{this.img}}" alt="" />
+        </div>
+      </div>
+
+    {{/each}}
+  </section>
+</div>
+
+<div class="contenedor-modal">
+  <div class="caja-modal">
+    <div class="header-modal">
+      <i class="fa-solid fa-xmark" id="btn"></i>
+    </div>
+    <div class="texto-modal">
+      <h4 id="titulo"> </h4>
+      <p id="text"></p>
+      <img id="img" src="" alt="" />
+    </div>
+  </div>
+</div>
+

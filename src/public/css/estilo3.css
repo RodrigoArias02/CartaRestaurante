@@ -139,7 +139,7 @@ button{
 
     font-size: 1.3em;
 }
-.platoss{
+.section-platillos{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -164,7 +164,7 @@ button{
     padding: 15px 0px;
 }
 
-.precio-plato{
+.div-precio_platillo{
     display: flex;
     width: 100%;
     justify-content: space-between;
@@ -174,7 +174,10 @@ button{
     margin-left: 10px;
     cursor: pointer;
 }
-.platos{
+.nombre-plato{
+    padding-right:5px ;
+}
+.seccion{
     font-size: 1.3em;
     font-family: 'Stardos Stencil', cursive;
 }
@@ -246,7 +249,7 @@ button{
         font-size: 1.4em;
     
     }
-    .platoss{
+    .section-platillos{
         align-items: center;
      
     }
