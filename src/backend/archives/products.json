@@ -1,162 +1,205 @@
 [
   {
     "nombre": "Carne de ternera",
-    "img": "image/carne.png",
+    "img": "carne.png",
     "id": "b12a761b-7e36-4e9a-9f68-8a879fa877f7",
     "platos": [
-      {
-        "nombre": "Con papas fritas",
-        "precio": 450,
-        "descripcion": "Deliciosa carne de ternera acompañada de crujientes papas fritas.",
-        "image": "image/papas-fritas.jpg",
-        "id": "bfc85b7f-c7df-4a76-bc97-21dc85b833a3"
-      },
-      {
-        "nombre": "Con ensalada",
-        "precio": 350,
-        "descripcion": "Jugosa carne de ternera servida con una fresca ensalada de la casa.",
-        "image": "image/ensalada.jpg",
-        "id": "e5b8c44e-f2d4-4324-8c6b-4e2cfb45ef68"
-      },
       {
         "nombre": "Costilla",
         "precio": 678,
         "descripcion": "Sabrosas costillas de ternera cocinadas a la parrilla.",
-        "image": "image/costilla.jpg",
-        "id": "dd925f15-d6ed-4a0a-8775-9e6fd69c653a"
+        "image": "costilla.jpg",
+        "id": "dd925f15-d6ed-4a0a-8775-9e6fd69c653a",
+        "categoria": "carne"
       },
       {
-        "nombre": "Chuleta",
+        "nombre": "Con papas fritas",
+        "precio": 4500,
+        "descripcion": "Deliciosa carne de ternera acompañada de crujientes papas fritas.",
+        "image": "papas-fritas.jpg",
+        "id": "bfc85b7f-c7df-4a76-bc97-21dc85b833a3",
+        "categoria": "carne"
+      },
+      {
+        "nombre": "Con ensaladaa",
+        "precio": 350,
+        "descripcion": "Jugosa carne de ternera servida con una fresca ensalada de la casa.",
+        "image": "ensalada.jpg",
+        "id": "e5b8c44e-f2d4-4324-8c6b-4e2cfb45ef68",
+        "categoria": "carne"
+      },
+      {
+        "nombre": "hola carne",
+        "precio": 44,
+        "descripcion": "dasdsa",
+        "image": "image-1724197375366-Certificado React Js.png",
+        "id": "ca34d65a-97a0-4df2-959a-d11e13840cde",
+        "categoria": "carne"
+      },
+      {
+        "nombre": "Chuletaa",
         "precio": 841,
         "descripcion": "Chuletas jugosas de ternera, acompañadas de guarnición al gusto.",
-        "image": "image/chuleta.jpg",
-        "id": "a1fbb6d4-76f7-4916-9467-7a96b7d7f134"
+        "image": "chuleta.jpg",
+        "id": "a1fbb6d4-76f7-4916-9467-7a96b7d7f134",
+        "categoria": "carne"
       }
     ]
   },
   {
     "nombre": "Carne de cerdo",
-    "img": "image/cerdo.png",
+    "img": "cerdo.png",
     "id": "c9a29f92-945b-4af5-9e07-fcfb5a2e3c6a",
     "platos": [
       {
         "nombre": "Con papas fritas",
         "precio": 450,
         "descripcion": "Tierna carne de cerdo acompañada de papas fritas crujientes.",
-        "image": "image/papas-fritas.jpg",
-        "id": "a11d8f7f-2a4f-4e76-8f6b-7e46c4f846a5"
+        "image": "papas-fritas.jpg",
+        "id": "a11d8f7f-2a4f-4e76-8f6b-7e46c4f846a5",
+        "categoria": "cerdo"
       },
       {
         "nombre": "Con ensalada",
         "precio": 350,
         "descripcion": "Carne de cerdo asada con una fresca ensalada mixta.",
-        "image": "image/ensalada.jpg",
-        "id": "c41892f8-6e9b-4421-8f17-1a1c12358a3b"
+        "image": "ensalada.jpg",
+        "id": "c41892f8-6e9b-4421-8f17-1a1c12358a3b",
+        "categoria": "cerdo"
       },
       {
         "nombre": "Costilla",
         "precio": 678,
         "descripcion": "Costillas de cerdo a la parrilla con salsa barbacoa.",
-        "image": "image/costilla.jpg",
-        "id": "a24d4e88-19af-4934-9e23-0c4b4eec1c3f"
+        "image": "costilla.jpg",
+        "id": "a24d4e88-19af-4934-9e23-0c4b4eec1c3f",
+        "categoria": "cerdo"
       },
       {
         "nombre": "Chuleta",
         "precio": 841,
         "descripcion": "Chuletas jugosas de cerdo, preparadas al gusto del cliente.",
-        "image": "image/chuleta.jpg",
-        "id": "bdc6fae2-56a7-4ae9-a6d5-df9c4b3b5320"
+        "image": "chuleta.jpg",
+        "id": "bdc6fae2-56a7-4ae9-a6d5-df9c4b3b5320",
+        "categoria": "cerdo"
       },
       {
         "nombre": "Ahumada",
         "precio": 841,
         "descripcion": "Carne de cerdo ahumada, un verdadero placer para los amantes del sabor ahumado.",
-        "image": "image/ahumada.jpg",
-        "id": "cbf94c2b-03a3-4fb3-b888-5a173fe348e4"
+        "image": "ahumada.jpg",
+        "id": "cbf94c2b-03a3-4fb3-b888-5a173fe348e4",
+        "categoria": "cerdo"
+      },
+      {
+        "nombre": "cerdo loco",
+        "precio": 545,
+        "descripcion": "fdsdf",
+        "image": "image-1724196961230-Certificado Backend.png",
+        "id": "7b602537-afdc-4c75-aba6-dc831ea7f32b",
+        "categoria": "cerdo"
       }
     ]
   },
   {
     "nombre": "Carne de pollo",
-    "img": "image/pollo.png",
+    "img": "pollo.png",
     "id": "e982fd42-4b2f-4480-9ff4-6e09c31c992b",
     "platos": [
       {
         "nombre": "Con papas fritas",
         "precio": 450,
         "descripcion": "Pechuga de pollo acompañada de papas fritas crujientes.",
-        "image": "image/papas-fritas.jpg",
-        "id": "d71b2fbb-9382-4f1e-b97b-877e64e3a779"
+        "image": "papas-fritas.jpg",
+        "id": "d71b2fbb-9382-4f1e-b97b-877e64e3a779",
+        "categoria": "pollo"
       },
       {
         "nombre": "Con ensalada",
         "precio": 350,
         "descripcion": "Filete de pollo a la plancha servido con una fresca ensalada.",
-        "image": "image/ensalada.jpg",
-        "id": "c2935ef3-8d2c-4c94-8d82-8d7a842e6b1e"
+        "image": "ensalada.jpg",
+        "id": "c2935ef3-8d2c-4c94-8d82-8d7a842e6b1e",
+        "categoria": "pollo"
       },
       {
         "nombre": "Pata y muslo",
         "precio": 678,
         "descripcion": "Deliciosas piezas de pata y muslo de pollo, cocinadas al punto.",
-        "image": "image/pata-muslo.jpg",
-        "id": "af8a3fb3-99e1-4d4b-9a15-8a9679a963b7"
+        "image": "pata-muslo.jpg",
+        "id": "af8a3fb3-99e1-4d4b-9a15-8a9679a963b7",
+        "categoria": "pollo"
       },
       {
         "nombre": "Pechuga",
         "precio": 841,
         "descripcion": "Jugosa pechuga de pollo a la parrilla, lista para disfrutar.",
-        "image": "image/pechuga.jpg",
-        "id": "fa693d6e-f426-4f0e-b6a8-7b9d28ef4356"
+        "image": "pechuga.jpg",
+        "id": "fa693d6e-f426-4f0e-b6a8-7b9d28ef4356",
+        "categoria": "pollo"
       },
       {
         "nombre": "Pollo ahumado",
         "precio": 841,
         "descripcion": "Pollo marinado y ahumado lentamente, para un sabor profundo y aromático.",
-        "image": "image/pollo-ahumado.jpg",
-        "id": "d94217df-b52e-4e7b-9a6a-3a9b169c1583"
+        "image": "pollo-ahumado.jpg",
+        "id": "d94217df-b52e-4e7b-9a6a-3a9b169c1583",
+        "categoria": "pollo"
       }
     ]
   },
   {
     "nombre": "Pescado",
-    "img": "image/pescado.png",
+    "img": "pescado.png",
     "id": "f4a017ae-5c67-4f52-bde6-8f197746e22c",
     "platos": [
       {
         "nombre": "Con papas fritas",
         "precio": 450,
         "descripcion": "Filete de pescado fresco acompañado de papas fritas doradas.",
-        "image": "image/papas-fritas.jpg",
-        "id": "b58a7a48-2a78-41e5-8ae6-70a7a15fb8fa"
+        "image": "papas-fritas.jpg",
+        "id": "b58a7a48-2a78-41e5-8ae6-70a7a15fb8fa",
+        "categoria": "pescado"
       },
       {
         "nombre": "Con mariscos",
         "precio": 350,
         "descripcion": "Pescado con una selección de mariscos frescos y salsa de la casa.",
-        "image": "image/mariscos.jpg",
-        "id": "e5a17d9e-7d14-4b37-8db4-7c8d837693c6"
+        "image": "mariscos.jpg",
+        "id": "e5a17d9e-7d14-4b37-8db4-7c8d837693c6",
+        "categoria": "pescado"
       },
       {
         "nombre": "Pulpo",
         "precio": 678,
         "descripcion": "Pulpo fresco a la parrilla con un toque de limón y aceite de oliva.",
-        "image": "image/pulpo.jpg",
-        "id": "a67e50a1-d4f5-4f4a-bf8e-2e8e7e4d8a23"
+        "image": "pulpo.jpg",
+        "id": "a67e50a1-d4f5-4f4a-bf8e-2e8e7e4d8a23",
+        "categoria": "pescado"
       },
       {
         "nombre": "Salmón",
         "precio": 841,
         "descripcion": "Salmón fresco a la parrilla con hierbas mediterráneas.",
-        "image": "image/salmon.jpg",
-        "id": "f60a2a4d-873d-45d6-9b4e-7a4e7a45f2a9"
+        "image": "salmon.jpg",
+        "id": "f60a2a4d-873d-45d6-9b4e-7a4e7a45f2a9",
+        "categoria": "pescado"
       },
       {
         "nombre": "Sardina",
         "precio": 841,
         "descripcion": "Sardinas asadas con especias locales y guarnición de verduras frescas.",
-        "image": "image/sardina.jpg",
-        "id": "a9a9d2c3-6b3c-4c4e-8c6b-9c7d6b8f7a5b"
+        "image": "sardina.jpg",
+        "id": "a9a9d2c3-6b3c-4c4e-8c6b-9c7d6b8f7a5b",
+        "categoria": "pescado"
+      },
+      {
+        "nombre": "el pulpo ",
+        "precio": 5555,
+        "descripcion": "el pepo",
+        "image": "image-1723602725399-Certificado Javascript.png",
+        "id": "8fc0fecc-3dd5-45ac-8d84-7d03d99a2cd4",
+        "categoria": "pescado"
       }
     ]
   }

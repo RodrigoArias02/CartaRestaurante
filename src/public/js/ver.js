@@ -1,14 +1,14 @@
 let h4 = document.getElementById("titulo");
 let texto = document.getElementById("text");
 let imagen = document.getElementById("img");
-
+let modal = document.querySelector(".contenedor-modal");
 function mover() {
-  document.querySelector(".contenedor-modal").style.transform = "translate(0%)";
+
+  modal.classList.toggle('show');
 }
 
 document.getElementById("btn").addEventListener("click", function () {
-  document.querySelector(".contenedor-modal").style.transform =
-    "translate(-100%)";
+  mover();
 });
 document.addEventListener("DOMContentLoaded", () => {
   const nombres = document.querySelectorAll(".nombre-plato");
@@ -45,8 +45,9 @@ document.addEventListener("DOMContentLoaded", () => {
               mover();
               h4.innerHTML = data.product.nombre;
               texto.innerHTML = data.product.descripcion;
+              console.log(data.product)
               if (data.product.image != "") {
-                imagen.src = data.product.image;
+                imagen.src = `/image/${data.product.image}`;
               } else {
                 imagen.src =
                   "https://yaskawa-pillar.mx/img/categorias/no-disponible.jpg";

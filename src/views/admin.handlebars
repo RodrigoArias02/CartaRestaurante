@@ -1,0 +1,59 @@
+<div class="contenedor-admin">
+  <header class="barra">
+    <a href="">Inicio</a>
+    <button class="btn-session-cerrar">Cerrar sesion</button>
+  </header>
+  <section class="contenedor_de_formularios">
+    <div class="contenedor_formulario">
+      <article class="contenedor-img">
+        <img src="image/cerdo-ahumado.jpg" alt="" />
+      </article>
+      <article class="contenedor-iconos">
+        <i data-id="subir" class="fa-solid fa-upload btn_opcion"></i>
+        <i
+          data-id="actualizar"
+          class="fa-solid fa-pen-to-square btn_opcion"
+        ></i>
+        <i data-id="borrar" class="fa-solid fa-trash-can btn_opcion"></i>
+      </article>
+      <article class="contenedor-inputs" data-id="subir">
+        <select name="selectores">
+          <option value="">Elija La categoria</option>
+          {{#each ids}}
+            <option value="{{this.id}}">
+              {{this.nombre}}
+            </option>
+          {{/each}}
+        </select>
+        <input type="text" name="nombre" />
+        <textarea name="descripcion" id=""></textarea>
+        <input type="number" name="precio" id="" />
+        <input type="file" name="img" />
+        <button class="btn-formulario" data-id="btn-subir">Enviar Datos</button>
+      </article>
+      <article class="contenedor-inputs hidden" data-id="actualizar">
+        <select name="selectores" class="selector_platos" id="selector_id">
+          <option value="">Elija un elemento</option>
+
+        </select>
+        <input type="text" name="nombre" />
+        <textarea name="descripcion" id=""></textarea>
+        <input type="number" name="precio" id="" />
+        <input type="file" name="img" />
+        <button class="btn-formulario" data-id="btn-actualizacion">Actualizar
+          Datos</button>
+      </article>
+      <article class="contenedor-inputs hidden" data-id="borrar">
+        <select name="selectores" class="selector_platos" id="">
+          <option value="">Elija un elemento</option>
+
+        </select>
+        <button class="btn-formulario" data-id="btn-eliminar">Eliminar</button>
+      </article>
+    </div>
+  </section>
+
+</div>
+
+<script src="js/verifyToken.js"></script>
+<script src="js/formularios.js"></script>

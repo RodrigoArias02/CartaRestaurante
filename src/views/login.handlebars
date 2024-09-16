@@ -1,16 +1,20 @@
-<div class="contenedor_caja">
+<div class="contenedor2">
+  <div class="contenedor_caja">
     <section class="caja-login">
-        <article>
-            <h3></h3>
-        </article>
-        <article>
-            <input type="text" name="userText" placeholder="User" >
-            <input type="password" name="passwordText" placeholder="Password">
-        </article>
-        <article>
-            <button id="btn-enviar">Enviar</button>
-        </article>
+      <article>
+        <h3></h3>
+      </article>
+      <article>
+        {{#if error}}
+          <p> {{error}} </p>
+        {{/if}}
+        <input type="text" name="userText" placeholder="User" />
+        <input type="password" name="passwordText" placeholder="Password" />
+      </article>
+      <article>
+        <button id="btn-enviar">Enviar</button>
+      </article>
     </section>
+  </div>
 </div>
-
 <script src="js/user.js"></script>

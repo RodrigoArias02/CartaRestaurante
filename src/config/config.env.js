@@ -15,5 +15,6 @@ dotenv.config(
 export const configVar={
     USER:process.env.USER,
     PASSWORD:process.env.PASSWORD,
-    PORT: process.env.PORT
+    PORT: process.env.PORT,
+    SECRET_KEY: process.env.PRIVATE_KEY
 }
